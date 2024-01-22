@@ -1,3 +1,6 @@
+{{ config(materialized='table') }} -- This will enforce the materalization as a table. 
+
+
 with customers as (
 
     select * from {{ ref('stg_customers')}}
