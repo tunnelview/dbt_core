@@ -16,3 +16,5 @@ Try running the following commands:
 
 
 This file needs to be completed. 
+
+Tested this for Git Pull, but needs to test it for git fetch.
