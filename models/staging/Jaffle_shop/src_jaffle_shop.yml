@@ -6,4 +6,15 @@ sources:
     schema: jaffle_shop
     tables:
       - name: customers
+        columns:
+          - name: id
+            description: Primary key of the orders table
+            tests:
+              - unique
+              - not_null
       - name: orders
+        
+    
+
+
+
