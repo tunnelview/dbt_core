@@ -1,11 +1,24 @@
-{% set x = {'name':'Shibin', 'ID':21, 'email':'shibin.abraham1986@gmail.com'} %}
-
-set {{x['name']}}
-
-{% set my_json = {"name": "John", "age": 30, "city": "New York"} %}
-
+/*{% set my_json = {"name": "John", "age": 30, "city": "New York"} %}
+{{my_json.keys()}}
 {% for key in my_json.keys() %}
 
   {{ key }}
 {% endfor %}
-{{ my_json.keys() }}
+*/
+
+{# {% set my_json = {"name": "John", "age": 30, "city": "New York"} 
+{{my_json.keys()}}
+{% for key in my_json.keys() %}
+
+  {{ key }}
+{% endfor %}
+ #}
+
+
+{% set temperature = 80 %}
+On a day like this, I especially like
+{% if temperature > 70 %}
+a refreshing mango sorbet.
+{% else %}
+a decadent chocolate ice cream.
+{% endif %}
